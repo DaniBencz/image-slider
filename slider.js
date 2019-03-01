@@ -1,7 +1,10 @@
 'use strict';
 
-var button = document.querySelectorAll('.box');
-button.onclick = () => {
-  alert('yey');
-  //document.getElementsByClassName('main-image')
-};
+let button = document.querySelectorAll('.icon');
+button.forEach(icon => {
+  icon.onclick = () => {
+    let img = document.querySelector('.main-image');
+    img.setAttribute('src',`${icon.getAttribute('src')}`);
+  };
+
+})
