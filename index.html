@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <title>Image-Slider</title>
   <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-  <script src="main.js"></script>
 </head>
 
 <body>
@@ -14,23 +13,40 @@
   <div class="container">
 
     <div id="main-content">
-      <button class="left button"></button>
-      <img src="./images/flower.jpg" id="main-picture">
-      <button class="right button"></button>
+      <button class="button">
+        <img src="./images/arrow.svg">
+      </button>
+
+      <img class="main-image" src="./images/flower.jpg" id="main-picture">
+
+      <button class="button">
+        <img id="right-image" src="./images/arrow.svg">
+      </button>
     </div>
 
-      <div id="thumbnails">
-        <span class="box 1"></span>
-        <span class="box 2"></span>
-        <span class="box 3"></span>
-        <span class="box 4"></span>
-        <span class="box 5"></span>
-        <span class="box 5"></span>
-  
-      </div>
- 
+    <div id="thumbnails">
 
+      <button class="box 1">
+        <img class="icon" src="./images/flower.jpg">
+      </button>
+      <button class="box 2">
+        <img class="icon" src="./images/happy.jpg">
+      </button>
+      <button class="box 3">
+        <img class="icon" src="./images/sky.jpg">
+      </button>
+      <button class="box 4">
+        <img class="icon" src="./images/stones.jpg">
+      </button>
+      <button class="box 5">
+        <img class="icon" src="./images/swan.jpg">
+      </button>
+      <button class="box 6">
+        <img class="icon" src="./images/webs.JPG">
+      </button>
+    </div>
   </div>
+  <script src="slider.js"></script>
 </body>
 
 </html>

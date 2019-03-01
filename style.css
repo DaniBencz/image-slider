@@ -1,14 +1,15 @@
-body{
-  margin:0;
-  padding:0;
+body {
+  margin: 0;
+  padding: 0;
   background-image: linear-gradient(to right, gray, whitesmoke, gray);
 }
 
-#gallery{
+#gallery {
   text-align: center;
+  color: darkgray;
 }
 
-.container{
+.container {
   height: 85vh;
   width: 100vw;
   display: flex;
@@ -17,7 +18,7 @@ body{
   flex-direction: column;
 }
 
-#main-content{
+#main-content {
   display: flex;
   height: 70%;
   width: 80%;
@@ -25,23 +26,37 @@ body{
   flex-direction: row;
 }
 
-#main-picture{
+#main-picture {
   max-height: 100%;
   width: 100%;
 }
 
-.button{
+.button {
   width: 5%;
 }
 
-#thumbnails{
+button{
+  padding: 0;
+}
+
+#right-image {
+  transform: rotate(180deg);
+}
+
+#thumbnails {
   display: flex;
   flex-direction: row;
 }
 
-.box{
+.box {
+  display: flex;
   height: 50px;
   width: 50px;
   background: lightcyan;
   margin: 5px;
+}
+
+.icon{
+  height: 100%;
+  width: 100%;
 }
