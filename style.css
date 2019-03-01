@@ -1,0 +1,47 @@
+body{
+  margin:0;
+  padding:0;
+  background-image: linear-gradient(to right, gray, whitesmoke, gray);
+}
+
+#gallery{
+  text-align: center;
+}
+
+.container{
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#main-content{
+  display: flex;
+  height: 70%;
+  width: 80%;
+  background: whitesmoke;
+  flex-direction: row;
+}
+
+#main-picture{
+  max-height: 100%;
+  width: 100%;
+}
+
+.button{
+  width: 5%;
+}
+
+#thumbnails{
+  display: flex;
+  flex-direction: row;
+}
+
+.box{
+  height: 50px;
+  width: 50px;
+  background: lightcyan;
+  margin: 5px;
+}
