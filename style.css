@@ -35,28 +35,36 @@ body {
   width: 5%;
 }
 
-button{
+button {
   padding: 0;
 }
 
-#right-image {
+#right-click {
   transform: rotate(180deg);
 }
 
 #thumbnails {
+  position: absolute;
+  bottom: 10px;
   display: flex;
   flex-direction: row;
 }
 
 .box {
-  display: flex;
   height: 50px;
   width: 50px;
   background: lightcyan;
   margin: 5px;
 }
 
-.icon{
+.box:hover {
+  height: 60px;
+  width: 60px;
+  background: lightcyan;
+  margin: 5px;
+}
+
+.icon {
   height: 100%;
   width: 100%;
 }
