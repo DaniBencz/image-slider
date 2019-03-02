@@ -21,7 +21,7 @@ body {
 #main-content {
   display: flex;
   height: 70%;
-  width: 80%;
+  width: 60%;
   background: whitesmoke;
   flex-direction: row;
 }
