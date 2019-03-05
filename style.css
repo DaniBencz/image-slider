@@ -44,8 +44,7 @@ button {
 }
 
 #thumbnails {
-  position: absolute;
-  bottom: 10px;
+  position: relative;
   display: flex;
   flex-direction: row;
 }
@@ -61,7 +60,8 @@ button {
   height: 60px;
   width: 60px;
   background: lightcyan;
-  margin: 5px;
+  margin: 0px;
+  transition: 500ms;
 }
 
 .icon {
